@@ -70,7 +70,7 @@ input, .submit-user {
     margin-left: 303px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .container {
       padding-left: 15px;
       padding-right: 15px;
@@ -87,10 +87,6 @@ input, .submit-user {
 
   .senha-genero {
       flex-direction: column;
-  }
-
-  .genero-user, .message-user {
-      width: 100%;
   }
 
   .subject-user {
