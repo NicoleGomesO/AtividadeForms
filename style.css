@@ -69,3 +69,43 @@ input, .submit-user {
 .subject-user {
     margin-left: 303px;
 }
+
+@media (max-width: 768px) {
+  .container {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  input, .submit-user {
+      width: 100%;
+      margin-right: 0;
+  }
+
+  .email-user {
+      width: 100%;
+  }
+
+  .senha-genero {
+      flex-direction: column;
+  }
+
+  .genero-user, .message-user {
+      width: 100%;
+  }
+
+  .subject-user {
+      margin-left: 0;
+  }
+
+  .sing-in {
+      display: block;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .sing-in a {
+      text-decoration: none;
+      color: inherit;
+  }
+}
